@@ -1,0 +1,63 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Library Management</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        /* Background Styling */
+        body {
+            background-image: url('{% static "books/bg1.jpg" %}');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Card Styling */
+        .main-card {
+            background: rgba(255, 255, 255, 0.9); /* Light background for readability */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            width: 500px;
+        }
+
+        /* Button Styling */
+        .btn-custom {
+            width: 100%;
+            font-size: 18px;
+            padding: 12px;
+            border-radius: 8px;
+        }
+
+        .btn-custom:not(:last-child) {
+            margin-bottom: 10px;
+        }
+
+        /* Heading Styling */
+        .title {
+            font-weight: bold;
+            font-size: 30px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-card">
+        <h1 class="title">📚 Library Management System</h1>
+        <p class="text-muted">Manage your books with ease!</p>
+
+        <a href="{% url 'books' %}" class="btn btn-info btn-custom">📖 View Books</a>
+        <a href="{% url 'add_book' %}" class="btn btn-warning btn-custom">➕ Add Book</a>
+        <a href="{% url 'search_books' %}" class="btn btn-success btn-custom">🔍 Search Book</a>
+    </div>
+</body>
+</html>
