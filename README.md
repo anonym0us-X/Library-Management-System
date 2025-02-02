@@ -3,7 +3,8 @@ While learning the Django web development framework, along the learning process 
 The main objective for the creation of this website was to learn the django framework in-depth by having a hands-on project experience, and has really helped me learn the django framework. 
 
 ABOUT THE WEBSITE
-the website consist of 4 pages, 
+
+The website consist of 4 pages, 
 1. Home page
 2. Add book page
 3. View books
