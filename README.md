@@ -2,7 +2,7 @@
 While learning the Django web development framework, along the learning process i started creating the site for library management system. 
 The main objective for the creation of this website was to learn the django framework in-depth by having a hands-on project experience, and has really helped me learn the django framework. 
 
-##ABOUT THE WEBSITE
+## ABOUT THE WEBSITE
 
 The website consist of 4 pages, 
 1. Home page
